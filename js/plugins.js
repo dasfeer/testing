@@ -17,7 +17,6 @@
         // Only stub undefined methods.
         if (!console[method]) {
             console[method] = noop;
-            console.log(12345);
             console.log(123);
         }
     }
